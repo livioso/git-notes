@@ -44,6 +44,13 @@ git svn dcommit
 git shortlog -s -n --all
 ```
 
+✍ rename a branch
+---
+```
+git branch -m old_branch new_branch
+```
+
+
 ✍ colorize git output
 ---
 ```
