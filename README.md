@@ -50,6 +50,11 @@ git shortlog -s -n --all
 git branch -m old_branch new_branch
 ```
 
+✍ add a remote 'mirror'
+---
+```
+git remote add origin git@github.com:livioso/test.git
+```
 
 ✍ colorize git output
 ---
