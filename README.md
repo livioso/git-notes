@@ -8,7 +8,10 @@ git- notes
 
 ```git svn clone https://path.to/svn --username=livio.bieri@students.fhnw.ch -s```
 
-where `-s` is equal to `-T trunk -b branches -t tags` which is the commonly used naming.
+where `-s` is equal to `-T trunk -b branches -t tags`.
+
+The -s is only necessary if the svn repository follows the standard layout <br>
+(i.e., trunk, branches, and tags directories). If not you can omit the -s.
 
 
 ✍ rebase from subversion ('update')
