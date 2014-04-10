@@ -1,4 +1,4 @@
-git- notes
+git notes
 ====
 ---
 
@@ -63,4 +63,14 @@ git remote add origin git@github.com:livioso/test.git
 ---
 ```
 git config --global color.ui auto
+```
+✍ prove that you're not a lazy...
+---
+There is someone claiming that you're a lazy guy doing nothing (yaa, I'm looking at you :older_man:) and you want to prove otherwise? Than it would be handy to have something like the following output:
+```
+files changed:  26 lines inserted:  256 lines deleted:  120
+```
+Luckily we can do that with:
+```
+git log --shortstat --author="livio@livio.li" --since="Last month" -p src/ | grep -E "fil(e|es) changed" | awk '{files+=$1; inserted+=$4; deleted+=$6} END {print "files changed: ", files, "lines inserted: ", inserted, "lines deleted: ", deleted }'
 ```
