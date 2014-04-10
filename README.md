@@ -64,7 +64,7 @@ git remote add origin git@github.com:livioso/test.git
 ```
 git config --global color.ui auto
 ```
-✍ prove that you're not a lazy...
+✍ prove that you're not lazy...
 ---
 There is someone claiming that you're a lazy guy doing nothing (yaa, I'm looking at you :older_man:) and you want to prove otherwise? Than it would be handy to have something like the following output:
 ```
