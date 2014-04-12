@@ -59,15 +59,13 @@ git branch -m old_branch new_branch
 git remote add origin git@github.com:livioso/test.git
 ```
 
-✍ [http://git-scm.com/docs/git-cherry-pick](cherry pick) from another repo
+✍ [cherry pick](http://git-scm.com/docs/git-cherry-pick) from another repo
 ---
 ```
 git remote add marius https://github.com/mariuskueng/OOPI2.git
 git marius fetch
 git cherry-pick <insert id of the commit you want>
 ```
-
-git remote add marius https://github.com/mariuskueng/OOPI2.git
 
 ✍ colorize git output
 ---
