@@ -59,7 +59,7 @@ git branch -m old_branch new_branch
 git remote add origin git@github.com:livioso/test.git
 ```
 
-✍ [http://git-scm.com/docs/git-cherry-pick] (cherry pick) from another repo
+✍ [http://git-scm.com/docs/git-cherry-pick](cherry pick) from another repo
 ---
 ```
 git remote add marius https://github.com/mariuskueng/OOPI2.git
