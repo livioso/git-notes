@@ -72,6 +72,12 @@ git cherry-pick <insert id of the commit you want>
 ```
 git config --global color.ui auto
 ```
+
+✍ [neatly styled git logs](https://github.com/tiimgreen/github-cheat-sheet#styled-git-log)
+```
+git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+```
+
 ✍ prove that you're not lazy...
 ---
 There is someone claiming that you're a lazy guy doing nothing (yaa, I'm looking at you :older_man:) and you want to prove otherwise? Than it would be handy to have something like the following output:
