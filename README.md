@@ -74,6 +74,7 @@ git config --global color.ui auto
 ```
 
 ✍ [neatly styled git logs](https://github.com/tiimgreen/github-cheat-sheet#styled-git-log)
+---
 ```
 git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
