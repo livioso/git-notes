@@ -89,3 +89,9 @@ Luckily we can do that with:
 ```
 git log --shortstat --author="livio@livio.li" --since="Last month" -p src/ | grep -E "fil(e|es) changed" | awk '{files+=$1; inserted+=$4; deleted+=$6} END {print "files changed: ", files, "lines inserted: ", inserted, "lines deleted: ", deleted }'
 ```
+✍ [remove untracked files](http://git-scm.com/docs/git-clean)
+---
+```
+git clean -f
+```
+
